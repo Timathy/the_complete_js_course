@@ -30,8 +30,8 @@ document.querySelector('.btn-roll').addEventListener('click', function (e) {
     // 2. Display result
     document.querySelector('.dice').style.display = 'block';
     document.querySelector('.dice-2').style.display = 'block';
-    document.getElementById('dice').src = 'dice-' + dice1 + '.png';
-    document.getElementById('dice-2').src = 'dice-' + dice2 + '.png';
+    document.getElementById('dice').src = 'resources/images/dice/dice-' + dice1 + '.png';
+    document.getElementById('dice-2').src = 'resources/images/dice/dice-' + dice2 + '.png';
 
     // Update the round score only IF the rolled number was not a 1
     // else, if the player rolls six two times in a row, the player loses
